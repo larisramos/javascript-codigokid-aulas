@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- 
+Autor(a): Larissa Ramos
+Data: 24/01/2025 
+-->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!--Esta tag configura a viewport, que controla como a página é exibida em diferentes dispositivos, principalmente em dispositivos móveis.-->
+        <meta name="viewport" content="width=device, initial-scale=1.0" >
+        <!--Esta tag instrui versões antigas do Internet Explorer a renderizar a página usando o modo de renderização mais recente disponível. Isso ajuda a garantir a compatibilidade com os padrões web.-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aula 1</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            // document representa a página web carregada no navegador.
+            //A função createElement() cria um novo nó de elemento HTML. 
+            const titulo = document.createElement("h1");
+            //innerHTML é uma propriedade de elementos HTML no DOM (Document Object Model). 
+            //Ela permite acessar ou modificar o conteúdo HTML interno de um elemento. 
+            titulo.innerHTML = "Hello World!"
+            document.body.append(titulo);
+        </script>
+    </body>
+</html>
